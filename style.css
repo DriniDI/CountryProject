@@ -6,8 +6,15 @@
 
 
 .topbar {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 15px 20px;
     text-align: center;
-    padding: 10px;
+}
+
+.flag{
+    align-items: left
+    ;
 }
 
 .topbar .title {
@@ -38,6 +45,14 @@
 }
 
 
+.windows {
+    width: 400px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
 
 .container {
     display: flex;
@@ -50,6 +65,8 @@
     border-right: 1px solid #ccc;
     padding: 10px;
     height: 450px;
+    font-size: 22px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 .sidebar ul {
@@ -58,24 +75,10 @@
 }
 
 .sidebar li {
-    padding: 8px 0;
+    padding: 40px 0;
     cursor: pointer;
 }
 
-/* Content */
-.content {
-    flex: 1;
-    text-align: center;
-    padding-top: 60px;
+.sidebar li:hover {
+    background: #dfdbdb;
 }
-
-.content h1 {
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
-.content h2 {
-    font-size: 32px;
-    font-weight: normal;
-}
-
