@@ -40,7 +40,17 @@
                 font-weight: bolder;
             }
 
-            
+            #home{
+                font-size: 2rem;
+                text-align: center;
+                padding-bottom: 10px;
+            }
+
+            .flag{
+                padding-bottom: 0px;
+            }
+
+        
 
         nav ul {
             display: flex;
@@ -70,7 +80,7 @@
         }
 
         .welcome h1 {
-            font-size: 3rem;
+            font-size: 4rem;
             margin-bottom: 20px;
             margin-top: 1px;
         }
@@ -96,6 +106,7 @@
         .about .about-text {
             flex: 1;
             margin-right: 20px;
+            font-size: 1.5rem;
         }
 
         .about .about-image img {
